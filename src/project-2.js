@@ -58,17 +58,14 @@ const isPrime = (num) => {
 
 const returnFirst = (arr) => {
   return arr[0];
-  // return the first item from the array
 };
 
 const returnLast = (arr) => {
   return arr[arr.length - 1];
-  // return the last item of the array
 };
 
 const getArrayLength = (arr) => {
   return arr.length;
-  // return the length of the array
 };
 
 const incrementByOne = (arr) => {
@@ -99,8 +96,6 @@ const contains = (arr, item) => {
 const addNumbers = (numbers) => {
   const sum = numbers.reduce((total, amount) => total + amount);
   return sum;
-  // numbers is an array of integers.
-  // add all of the integers and return the value
 };
 
 const averageTestScore = (testScores) => {
